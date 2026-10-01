@@ -12,3 +12,16 @@ h1
   font-weight: bold;
   color: green;
 }
+
+.container {
+  padding: 20px;
+  margin-bottom: 12px;
+}
+
+.rot {
+  background-color: #f4aaaa;
+}
+
+.blau {
+  background-color: #a9c9f5;
+}
