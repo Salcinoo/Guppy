@@ -47,4 +47,8 @@ h3
   flex-wrap: wrap;
   justify-content: center;
   background-image: url("https://t3.ftcdn.net/jpg/09/10/50/56/360_F_910505620_L9Wuls5opeDNOqqPbGR0qONh3I0U7mmZ.jpg");
+  background-size: cover;
+  min-width: 964px;
+  min-height: 422px;
+  display: flex;
   
