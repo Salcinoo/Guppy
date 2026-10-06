@@ -1,16 +1,32 @@
 body 
 {
+  width: 100%;
   background-color: #ADD8E7; 
   color: black;
   font-family: Merriweather;
   font-size: bold;
+  background-image: url("https://t3.ftcdn.net/jpg/09/10/50/56/360_F_910505620_L9Wuls5opeDNOqqPbGR0qONh3I0U7mmZ.jpg");
 }
 
 
 h1
 {
+  text-align: center;
   font-weight: bold;
-  color: green;
+  color: blue;
+}
+
+h2
+{
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}
+h3
+{
+  text-align: center;
+  font-weight: bold;
+  color: blue;
 }
 
 .container {
@@ -25,3 +41,10 @@ h1
 .blau {
   background-color: #a9c9f5;
 }
+
+.container {
+  min-width: 775px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
