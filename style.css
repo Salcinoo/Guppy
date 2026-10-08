@@ -42,3 +42,19 @@ h3
   background-size: cover;
   padding: 5%;
   margin-bottom: 12px;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+main {
+  margin-top: 80px; /* Platz schaffen, damit der Header nichts überdeckt */
+}
