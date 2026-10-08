@@ -41,6 +41,9 @@ h3
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.08);
 }
+.hellblau {
+  color: #ADD8E6;
+}
 
 .fixed-header {
   position: sticky;
