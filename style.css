@@ -25,22 +25,12 @@ h1
 h2
 {
   font-weight: bold;
-  color: white;
+  color: blue;
 }
 h3
 {
   font-weight: bold;
-  color: white;
-}
-
-
-
-.rot {
-  background-color: #f4aaaa;
-}
-
-.blau {
-  background-color: #a9c9f5;
+  color: blue;
 }
 
 .container {
@@ -66,6 +56,7 @@ h3
 }
 
 .fixed-header h1 {
+  font-weight: blod;
   margin: 0;
   color: white;
   font-size: clamp(0.75rem, 2.5vw, 1rem);
@@ -81,15 +72,12 @@ h3
   text-shadow: none;
 }
 
+
 .fixed-header a:hover,
 .fixed-header a:focus-visible {
-  text-decoration: underline;
-  text-underline-offset: 0.2rem;
+  text-decoration: none;
 }
 
-main {
-  margin-top: 5%;
-}
 
 @media (max-width: 600px) {
   .container {
@@ -136,7 +124,7 @@ main {
   img,
   iframe {
     max-width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
 .fixed-header {
