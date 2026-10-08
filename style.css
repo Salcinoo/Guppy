@@ -94,6 +94,6 @@ h3
   width: 100%;
   background: #00008B;
   padding: 0%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 0,5% 1% rgba(0,0,0,0.2);
   z-index: 1000;
 }
