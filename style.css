@@ -4,7 +4,7 @@ body {
   width: 100%;
   margin: 0;
   background-color: #ADD8E7;
-  background-image: url("assetes/garnelen-background.jpg");
+  background-image: url("assets/garnelen-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -52,6 +52,45 @@ h3
   background: rgba(0, 0, 0, 0.08);
 }
 
+.fixed-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #00008B;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.fixed-header h1 {
+  margin: 0;
+  color: white;
+  font-size: clamp(0.75rem, 2.5vw, 1rem);
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.fixed-header a {
+  flex-shrink: 0;
+  color: white;
+  font-size: 0.65rem;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.fixed-header a:hover,
+.fixed-header a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+main {
+  margin-top: 5%;
+}
+
 @media (max-width: 600px) {
   .container {
     padding: 6% 5%;
@@ -60,6 +99,19 @@ h3
   body {
     background-attachment: scroll;
     font-size: 1rem;
+  }
+
+  .fixed-header {
+    gap: 0.35rem;
+    padding: 0.35rem 0.5rem;
+  }
+
+  .fixed-header h1 {
+    font-size: 0.65rem;
+  }
+
+  .fixed-header a {
+    font-size: 0.55rem;
   }
 
   h1 {
@@ -88,12 +140,9 @@ h3
   }
 }
 .fixed-header {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  width: 100%;
   background: #00008B;
-  padding: 0%;
-  box-shadow: 0 0,5% 1% rgba(0,0,0,0.2);
+  padding: 5%;
   z-index: 1000;
 }
