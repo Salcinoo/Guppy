@@ -43,6 +43,7 @@ h3
 }
 .hellblau {
   color: #ADD8E6;
+  overflow: auto;
 }
 
 .fixed-header {
