@@ -86,3 +86,17 @@ h3
     height: auto;
   }
 }
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #00008B;
+  padding: 5%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+main {
+  margin-top: 80px; /* Platz schaffen, damit der Header nichts überdeckt */
+}
