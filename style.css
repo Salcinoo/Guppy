@@ -48,11 +48,11 @@ h3
  {
   position: sticky;
   top: 0;
-  background:  #00008B;
+  background: #00008B;
   padding: 4%;
   z-index: 100%;
 }
 
 main {
-  margin-top: 80px; /* Platz schaffen, damit der Header nichts überdeckt */
+  margin-top: 5%;
 }
