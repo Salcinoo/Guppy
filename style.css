@@ -44,6 +44,8 @@ h3
 .hellblau {
   background: #ADD8E6;
   overflow: auto;
+  width: 50%;       
+  height: 30%;
 }
 
 .fixed-header {
